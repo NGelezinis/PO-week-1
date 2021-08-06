@@ -1,0 +1,12 @@
+given:
+PROCESSOR becomes D4F3C5C1E1S1S1E3C6
+my answer:
+QUADRANT becomes Q1G3A1B2C6A1B7J2
+
+my logic:
+Convert every letter to a number (A = 1, Z=26).
+if the number is prime convert the number back into the letter it was  and add a 1 after it.
+if the number is a perfect square takes its perfect square factors, put them side by side and turn the first number into a letter. (ex: D to B2, I to C3, P to D4, and Y to E5)
+otherwise convert the number into its greatest and least factor. (18 to 2 and 9, 21 to 3 and 7)
+if the letter was in an even position (0, 2, 4, 6) the lower number goes first in the ordering of the 2 numbers and become a letter again with the larger value going second.
+if the letter was in an odd position (1, 3, 5) the larger factor goes first in the ordering of the 2 numbers and becomes a letter again with the lower factor going second.
